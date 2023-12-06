@@ -24,7 +24,7 @@
 
         </header>
         <main>
-            <div class="uk-child-width-expand uk-padding" uk-grid>
+            <div class="uk-child-width-expand@s uk-padding" uk-grid>
                 <div>
                     <a href="images/Capture-starswars.png"><img src="images/starswars2.png"
                             class="uk-align-center uk-padding-large" alt=""></a>
@@ -38,7 +38,7 @@
                             alt=""></a>
                 </div>
             </div>
-            <div class="uk-child-width-expand " uk-grid>
+            <div class="uk-child-width-expand@s " uk-grid>
                 <div>
                     <a href="images/plage.jpg"><img class="uk-align-center uk-padding-large" src="images/plage1.jpg"
                             alt=""></a>
@@ -54,11 +54,61 @@
             </div>
         </main>
         <section>
+            <div class="uk-section">
+
+                <div id="js-sticky-parallax-images-all" style="min-height: 250vh" uk-grid="" class="uk-grid">
+                    <div class="uk-width-expand uk-first-column">
+        
+                        <div class="uk-sticky-placeholder" style="height: 0px; width: 0px; margin: 0px;"></div><div class="uk-height-viewport uk-sticky uk-active uk-sticky-fixed uk-sticky-below" uk-sticky="end: #js-sticky-parallax-images-all" style="position: sticky; top: 0px;">
+                            <div uk-parallax="target: #js-sticky-parallax-images-all; y: 55vh, 45vh;" style="transform: translateY(48.48vh); will-change: transform;">
+                                <img class="uk-position-center-left" src="images/stock/bureau1.JPG" width="1800" height="1200" alt="" uk-parallax="target: #js-sticky-parallax-images-all; start: 100vh; end: 100% + 100vh - 160vh; opacity: 1,1 99%,0; easing: 0" style="opacity: 0; will-change: opacity;">
+                                <img class="uk-position-center-left" src="images/stock/écrans.JPG" width="1800" height="1200" alt="" uk-parallax="target: #js-sticky-parallax-images-all; start: 150vh; end: 100% + 100vh - 210vh; opacity: 0,1 16.666%,1 99%,0; easing: 0" style="opacity: 0; will-change: opacity;">
+                                <img class="uk-position-center-left" src="images/stock/superman.png" width="1800" height="1200" alt="" uk-parallax="target: #js-sticky-parallax-images-all; start: 200vh; end: 100% + 100vh - 250vh; opacity: 0,1 20%,1; easing: 0" style="opacity: 1; will-change: opacity;">
+                            </div>
+                        </div>
+        
+                    </div>
+                    
+                    <div class="uk-width-expand">
+        
+                        <div class="uk-sticky-placeholder" style="height: 0px; width: 0px; margin: 0px;"></div><div class="uk-height-viewport uk-sticky uk-active uk-sticky-fixed uk-sticky-below" uk-sticky="end: #js-sticky-parallax-images-all" style="position: sticky; top: 0px;">
+                            <div uk-parallax="target: #js-sticky-parallax-images-all; y: 55vh, 45vh;" style="transform: translateY(48.48vh); will-change: transform;">
+        
+                                <div class="uk-position-center-left" uk-parallax="target: #js-sticky-parallax-images-all; start: 100vh; end: 100% + 100vh - 150vh; opacity: 0,1 20%,1 80%,0" style="opacity: 0; will-change: opacity;">
+        
+                                    <h1>Sticky Parallax Images All 1</h1>
+        
+                                    <p class="uk-visible@s">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        
+                                </div>
+                                <div class="uk-position-center-left" uk-parallax="target: #js-sticky-parallax-images-all; start: 150vh; end: 100% + 100vh - 200vh; opacity: 0,1 20%,1 80%,0" style="opacity: 0; will-change: opacity;">
+        
+                                    <h1>Sticky Parallax Images All 2</h1>
+        
+                                    <p class="uk-visible@s">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        
+                                </div>
+                                <div class="uk-position-center-left" uk-parallax="target: #js-sticky-parallax-images-all; start: 200vh; end: 100% + 100vh - 250vh; opacity: 0,1 20%,1" style="opacity: 1; will-change: opacity;">
+        
+                                    <h1>Sticky Parallax Images All 3</h1>
+        
+                                    <p class="uk-visible@s">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        
+                                </div>
+                            </div>
+                        </div>
+        
+                    </div>
+                </div>
+        
+            </div>
+        </section>
+        <section>
             <div class="uk-container uk-container-small uk-flex-inline-center">
                 <div class=" uk-height-large uk-background-cover uk-overflow-hidden uk-light uk-flex"
                     style="background-image: url('images/Aakapa.jpg');">
                     <div class="uk-width-1-2@m uk-text-center uk-margin-auto uk-margin-auto-vertical">
-                        <h1 class="nuku" uk-parallax="opacity: 0,1,1; y: -100,0,0; x: 100,100,0; scale: 2,1,1; end: 50vh + 50%; color: black">
+                        <h1 class="nuku" uk-parallax="opacity: 0,1,1; y: -100,0,0; x: 100,100,0; scale: 2,1,1.1; end: 50vh + 50%; color: black">
                             NUKU HIVA</h1>
                         <p uk-parallax="opacity: 0,1,1; y: 100,0,0; x: -100,-100,0; scale: 0.5,1,1; end: 50vh + 50%;">
                             Nuku Hiva est la plus grande île de l'archipel des Marquises tant par sa superficie de 387 km2 que par sa population de 2 966 habitants en 2012. 
