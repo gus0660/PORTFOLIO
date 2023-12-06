@@ -5,129 +5,182 @@
     <title>Portfolio Roch Guillaume</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- <link rel="stylesheet" href="uikit.min.css" /> -->
-    <!-- <script src="jquery.js"></script> -->
     <link rel="stylesheet" type="text/css" media="screen" href="css/uikit.css">
     <link rel="stylesheet" href="style.css">
-    <!-- <link rel="stylesheet" href="uikit.css"> -->
-
 </head>
 
 <body class="uk-background-cover uk-background-fixed uk-panel" style="background-image: url(images/nukuhiva1.JPG);">
     <div class="uk-background-cover uk-panel" style="background-color: rgba(255, 255, 255, 0.3);">
         <header>
             <div>
-                <p class="uk-heading-medium uk-text-center uk-text-bold">ROCH GUILLAUME</p>
-                <h2 class="uk-text-center uk-text-bold">Bienvenue dans mon Portfolio</h2>
+                <p class="uk-padding uk-heading-medium uk-text-center uk-text-bold">ROCH GUILLAUME</p>
+                <h2 class="uk-padding uk-text-center uk-text-bold">Bienvenue dans mon Portfolio</h2>
             </div>
-
         </header>
-        <main>
-            <div class="uk-child-width-expand@s uk-padding" uk-grid>
-                <div>
-                    <a href="images/Capture-starswars.png"><img src="images/starswars2.png"
-                            class="uk-align-center uk-padding-large" alt=""></a>
-                </div>
-                <div>
-                    <a href="images/Capture-superman.png"><img class="uk-align-center uk-padding-large"
-                            src="images/superman1.png" alt=""></a>
-                </div>
-                <div>
-                    <a href="images/burreau1.jpg"><img src="images/burreau.JPG" class="uk-align-center uk-padding-large"
-                            alt=""></a>
-                </div>
-            </div>
-            <div class="uk-child-width-expand@s " uk-grid>
-                <div>
-                    <a href="images/plage.jpg"><img class="uk-align-center uk-padding-large" src="images/plage1.jpg"
-                            alt=""></a>
-                </div>
-                <div>
-                    <a href="images/DJI_0004.JPG"><img class="uk-align-center uk-padding-large" src="images/terrain.jpg"
-                            alt=""></a>
-                </div>
-                <div>
-                    <a href="images/IMGP5646.JPG"><img class="uk-align-center uk-padding-large" src="images/vallée.jpg"
-                            alt=""></a>
+
+        <main class="uk-padding">
+            <div class="uk-section">
+                <div id="js-sticky-parallax-images-all" style="min-height: 260vh" uk-grid="" class="uk-grid">
+                    <div class="uk-width-expand uk-first-column">
+                        <div class="uk-sticky-placeholder" style="height: 0px; width: 0px; margin: 0px;"></div>
+                        <div class="uk-height-viewport uk-sticky uk-active uk-sticky-fixed uk-sticky-below"
+                            uk-sticky="end: #js-sticky-parallax-images-all" style="position: sticky; top: 0px;">
+                            <div uk-parallax="target: #js-sticky-parallax-images-all; y: 55vh, 45vh;"
+                                style="transform: translateY(48.48vh); will-change: transform;">
+                                <img class="uk-position-center-left" src="images/redim/bureau1.jpg" alt=""
+                                    uk-parallax="target: #js-sticky-parallax-images-all; start: 100vh; end: 100% + 100vh - 160vh; opacity: 1,1 99%,0; easing: 0"
+                                    style="opacity: 0; will-change: opacity;">
+                                <img class="uk-position-center-left" src="images/redim/écrans.jpg" alt=""
+                                    uk-parallax="target: #js-sticky-parallax-images-all; start: 155vh; end: 100% + 100vh - 215vh; opacity: 0,1 16.666%,1 99%,0; easing: 0"
+                                    style="opacity: 0; will-change: opacity;">
+                                <img class="uk-position-center-left" src="images/redim/superman.jpg" alt=""
+                                    uk-parallax="target: #js-sticky-parallax-images-all; start: 210vh; end: 100% + 100vh - 260vh; opacity: 0,1 20%,1; easing: 0"
+                                    style="opacity: 1; will-change: opacity;">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="uk-width-expand">
+                        <div class="uk-sticky-placeholder" style="height: 0px; width: 0px; margin: 0px;"></div>
+                        <div class="uk-height-viewport uk-sticky uk-active uk-sticky-fixed uk-sticky-below"
+                            uk-sticky="end: #js-sticky-parallax-images-all" style="position: sticky; top: 0px;">
+                            <div uk-parallax="target: #js-sticky-parallax-images-all; y: 55vh, 45vh;"
+                                style="transform: translateY(48.48vh); will-change: transform;">
+                                <div class="uk-position-center-left"
+                                    uk-parallax="target: #js-sticky-parallax-images-all; start: 100vh; end: 100% + 100vh - 150vh; opacity: 0,1 20%,1 80%,0"
+                                    style="opacity: 0; will-change: opacity;">
+                                    <h1 class="uk-text-bold">J'ai toujours été passioné d'informatique.</h1>
+                                    <p class="uk-text-emphasis uk-text-large uk-text-bold uk-visible@s">Quand la
+                                        formation AFPA a débuté, j'avais déjàs de bonnes bases en HTML et CSS, ce qui
+                                        était pour moi, un plus.<br>Une initiation au sein de l'association UTOPLAB m'a
+                                        permis d'appréhender ces langages de la meilleure des façons.
+                                    </p>
+                                </div>
+
+                                <div class="uk-position-center-left"
+                                    uk-parallax="target: #js-sticky-parallax-images-all; start: 150vh; end: 100% + 100vh - 200vh; opacity: 0,1 20%,1 80%,0"
+                                    style="opacity: 0; will-change: opacity;">
+                                    <h1 class="uk-text-bold">Sur place, mon bureau à rapidement évolué.</h1>
+                                    <p class="uk-text-emphasis uk-text-large uk-text-bold uk-visible@s">J'ai remplacé
+                                        mon PC portable personnel par du matériel beaucoup plus adapté.<br>Un micro PC
+                                        avec tout ce qu'il faut au niveau config. mais dotté d'une carte vidéo intégrée
+                                        très basique. Cette petite bécanne accepte, tout de même, trois écrans ce qui
+                                        est parfait pour faire du codage.</p>
+                                </div>
+
+                                <div class="uk-position-center-left"
+                                    uk-parallax="target: #js-sticky-parallax-images-all; start: 200vh; end: 100% + 100vh - 250vh; opacity: 0,1 20%,1"
+                                    style="opacity: 1; will-change: opacity;">
+                                    <h1 class="uk-text-bold">Le premier exercice à été de réaliser cette page en HTML et
+                                        CSS.</h1>
+                                    <p class="uk-text-emphasis uk-text-large uk-text-bold uk-visible@s">Ce premier
+                                        exercice comportais plusieurs défis :<br> Faire pivoter l'image de Superman, au
+                                        survol de la sourie pour qu'un texte apparaise dans son dos et sur fond
+                                        bleu.<br> Toujours au survol de la sourie, faire un petit zoom sur les cinq
+                                        icones centrales et avec apparition d'une petite ombre.<br> Pour finir,
+                                        affichage d'une vidéo YOUTUBE sur un dessin annimé de Super Man.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </main>
-        <section>
-            <div class="uk-section">
+        <div class="uk-padding uk-slider-container-offset" uk-slider>
 
-                <div id="js-sticky-parallax-images-all" style="min-height: 250vh" uk-grid="" class="uk-grid">
-                    <div class="uk-width-expand uk-first-column">
-        
-                        <div class="uk-sticky-placeholder" style="height: 0px; width: 0px; margin: 0px;"></div><div class="uk-height-viewport uk-sticky uk-active uk-sticky-fixed uk-sticky-below" uk-sticky="end: #js-sticky-parallax-images-all" style="position: sticky; top: 0px;">
-                            <div uk-parallax="target: #js-sticky-parallax-images-all; y: 55vh, 45vh;" style="transform: translateY(48.48vh); will-change: transform;">
-                                <img class="uk-position-center-left" src="images/stock/bureau1.JPG" width="1800" height="1200" alt="" uk-parallax="target: #js-sticky-parallax-images-all; start: 100vh; end: 100% + 100vh - 160vh; opacity: 1,1 99%,0; easing: 0" style="opacity: 0; will-change: opacity;">
-                                <img class="uk-position-center-left" src="images/stock/écrans.JPG" width="1800" height="1200" alt="" uk-parallax="target: #js-sticky-parallax-images-all; start: 150vh; end: 100% + 100vh - 210vh; opacity: 0,1 16.666%,1 99%,0; easing: 0" style="opacity: 0; will-change: opacity;">
-                                <img class="uk-position-center-left" src="images/stock/superman.png" width="1800" height="1200" alt="" uk-parallax="target: #js-sticky-parallax-images-all; start: 200vh; end: 100% + 100vh - 250vh; opacity: 0,1 20%,1; easing: 0" style="opacity: 1; will-change: opacity;">
+            <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1">
+
+                <ul class="uk-slider-items uk-child-width-1-2@s uk-grid">
+                    <li>
+                        <div class="uk-card uk-card-default">
+                            <div class="uk-card-media-top">
+                                <img src="images/redim/bureau1.1.jpg" width="1800" height="1200" alt="">
+                            </div>
+                            <div class="uk-card-body">
+                                <h3 class="uk-card-title">Headline</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    incididunt.</p>
                             </div>
                         </div>
-        
-                    </div>
-                    
-                    <div class="uk-width-expand">
-        
-                        <div class="uk-sticky-placeholder" style="height: 0px; width: 0px; margin: 0px;"></div><div class="uk-height-viewport uk-sticky uk-active uk-sticky-fixed uk-sticky-below" uk-sticky="end: #js-sticky-parallax-images-all" style="position: sticky; top: 0px;">
-                            <div uk-parallax="target: #js-sticky-parallax-images-all; y: 55vh, 45vh;" style="transform: translateY(48.48vh); will-change: transform;">
-        
-                                <div class="uk-position-center-left" uk-parallax="target: #js-sticky-parallax-images-all; start: 100vh; end: 100% + 100vh - 150vh; opacity: 0,1 20%,1 80%,0" style="opacity: 0; will-change: opacity;">
-        
-                                    <h1>Sticky Parallax Images All 1</h1>
-        
-                                    <p class="uk-visible@s">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-        
-                                </div>
-                                <div class="uk-position-center-left" uk-parallax="target: #js-sticky-parallax-images-all; start: 150vh; end: 100% + 100vh - 200vh; opacity: 0,1 20%,1 80%,0" style="opacity: 0; will-change: opacity;">
-        
-                                    <h1>Sticky Parallax Images All 2</h1>
-        
-                                    <p class="uk-visible@s">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-        
-                                </div>
-                                <div class="uk-position-center-left" uk-parallax="target: #js-sticky-parallax-images-all; start: 200vh; end: 100% + 100vh - 250vh; opacity: 0,1 20%,1" style="opacity: 1; will-change: opacity;">
-        
-                                    <h1>Sticky Parallax Images All 3</h1>
-        
-                                    <p class="uk-visible@s">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-        
-                                </div>
+                    </li>
+                    <li>
+                        <div class="uk-card uk-card-default">
+                            <div class="uk-card-media-top">
+                                <img src="images/redim/FireShot.jpg" width="1800" height="1200" alt="">
+                            </div>
+                            <div class="uk-card-body">
+                                <h3 class="uk-card-title">Headline</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    incididunt.</p>
                             </div>
                         </div>
-        
-                    </div>
-                </div>
-        
+                    </li>
+                    <li>
+                        <div class="uk-card uk-card-default">
+                            <div class="uk-card-media-top">
+                                <img src="images/redim/Capture-starswars.jpg" width="1800" height="1200" alt="">
+                            </div>
+                            <div class="uk-card-body">
+                                <h3 class="uk-card-title">Headline</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    incididunt.</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="uk-card uk-card-default">
+                            <div class="uk-card-media-top">
+                                <img src="images/redim/CaptCSSstars.jpg" width="1800" height="1200" alt="">
+                            </div>
+                            <div class="uk-card-body">
+                                <h3 class="uk-card-title">Headline</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    incididunt.</p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+
+                <a class="uk-position-center-left uk-position-small uk-hidden-hover" href uk-slidenav-previous
+                    uk-slider-item="previous"></a>
+                <a class="uk-position-center-right uk-position-small uk-hidden-hover" href uk-slidenav-next
+                    uk-slider-item="next"></a>
+
             </div>
-        </section>
+
+            <ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin"></ul>
+
+        </div>
         <section>
             <div class="uk-container uk-container-small uk-flex-inline-center">
                 <div class=" uk-height-large uk-background-cover uk-overflow-hidden uk-light uk-flex"
                     style="background-image: url('images/Aakapa.jpg');">
                     <div class="uk-width-1-2@m uk-text-center uk-margin-auto uk-margin-auto-vertical">
-                        <h1 class="nuku" uk-parallax="opacity: 0,1,1; y: -100,0,0; x: 100,100,0; scale: 2,1,1.1; end: 50vh + 50%; color: black">
+                        <h1 class="nuku"
+                            uk-parallax="opacity: 0,1,1; y: -100,0,0; x: 100,100,0; scale: 2,1,1.1; end: 50vh + 50%; color: black">
                             NUKU HIVA</h1>
                         <p uk-parallax="opacity: 0,1,1; y: 100,0,0; x: -100,-100,0; scale: 0.5,1,1; end: 50vh + 50%;">
-                            Nuku Hiva est la plus grande île de l'archipel des Marquises tant par sa superficie de 387 km2 que par sa population de 2 966 habitants en 2012. 
-                            Tout comme le reste de l'archipel, Nuku Hiva est une île volcanique formée par la crête émergée de volcans éteints depuis deux millions d'années. 
-                            Son relief est constitué de pics de basalte hauts d'une centaine de mètres. Son point culminant est le mont Tekao s'élevant à 1 224 m.
-                            Le principal village de l'île est Taiohae, situé au fond de la baie homonyme, au sein de la province traditionnelle de Te I'i. 
-                            Dans la baie du Contrôleur se trouve le village de Taipivai (en), principal village de la province traditionnelle de Tai Pi.
+                            Nuku Hiva est la plus grande île de l'archipel des Marquises tant par sa superficie de 387
+                            km2 que par sa population de 2 966 habitants en 2012.
+                            Tout comme le reste de l'archipel, Nuku Hiva est une île volcanique formée par la crête
+                            émergée de volcans éteints depuis deux millions d'années.
+                            Son relief est constitué de pics de basalte hauts d'une centaine de mètres. Son point
+                            culminant est le mont Tekao s'élevant à 1 224 m.
+                            Le principal village de l'île est Taiohae, situé au fond de la baie homonyme, au sein de la
+                            province traditionnelle de Te I'i.
+                            Dans la baie du Contrôleur se trouve le village de Taipivai (en), principal village de la
+                            province traditionnelle de Tai Pi.
                             .</p>
                     </div>
                 </div>
             </div>
-
-
         </section>
+
         <footer>
 
         </footer>
-    </div>
 
+    </div>
     <script src="js/uikit.min.js"></script> -->
     <script src="js/uikit-icons.min.js"></script>
 </body>
