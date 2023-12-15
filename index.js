@@ -1,18 +1,21 @@
-const name =document.getElementById('fname');
-const email =document.getElementById('femail');
-const phone =document.getElementById('ftel');
-const submit =document.getElementsByClassName('uk-form-stacked')[0];
+const nam =document.getElementById('form-name');
+const email =document.getElementById('form-email');
+const phone =document.getElementById('form-tel');
+const submit =document.querySelector('.envoy');
+const message =document.getElementById('message');
 
 submit.addEventListener('submit',(e)=>{
 e.preventDefault();
 console.log("Clicked");
 
 let ebody = `
-<b>Nom : </b>${fname.value}
+<b>Nom : </b>${nam.value}
 <br>
-<b>e-mail : </b>${femail.value}
+<b>e-mail : </b>${email.value}
 <br>
-<b>Phone : </b>${ftel.value}
+<b>Phone : </b>${phone.value}
+<br>
+<b>message : </b>${message.value}
 <br>
 `
 
