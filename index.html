@@ -14,8 +14,8 @@
 </head>
 <!-- background -->
 
-<body class="uk-background-cover uk-background-fixed" style="background-image: url(images/fond/2.jpg);">
-
+<body class="uk-background-cover uk-background-fixed" style="background-image: url(images/fond/1.jpg);">
+    
     <!-- Main Navbar -->
     <section class="uk-position-fixed uk-position-top-center uk-padding-large" uk-sticky>
 
@@ -214,12 +214,12 @@
 
     </main>
     <!-- page "mes réalisations" -->
-    <div class="uk-padding-large uk-padding-remove-horizontal" id="réal">
+    <section class="uk-padding-large uk-padding-remove-horizontal" id="réal">
         <div class="uk-background-cover uk-panel" style="background-color: rgba(255, 255, 255, 0.5);"></div>
-        <div class="uk-padding-large">
+        
 
             <div id="js-sticky-parallax-viewport"
-                class="uk-padding-large uk-child-width-1-2 uk-child-width-1-3@m uk-text-center uk-grid">
+                class="uk-padding-large uk-child-width-1-2 uk-child-width-1-3@s uk-text-center uk-grid">
                 <div class="uk-first-column">
                     <div><video src="images/films/oustalet.mp4" controls></video>
                     </div>
@@ -235,11 +235,11 @@
                     <div><img class="uk-margin-large" src="images/photo.jpg" width="1800" height="1200" alt="">
                     </div>
                 </div>
-                <div class="uk-background-cover uk-background-fixed uk-border-rounded"
-                    style="background-image: url(images/fond/1.jpg);">
+                <div class="uk-background-cover uk-background-fixed uk-border-rounded uk-width-1-3"
+                    style="background-image: url(images/fond/2.jpg);">
                     <div class="uk-sticky-placeholder" style="height: 0px; width: 0px; margin: 0px;"></div>
 
-                    <div class="uk-text-center uk-height-viewport uk-sticky uk-active uk-sticky-below uk-sticky-fixed"
+                    <div class="uk-text-center uk-height-viewport uk-sticky uk-active uk-sticky-below uk-sticky-fixed "
                         uk-sticky="end: #js-sticky-parallax-viewport" style="position: sticky; top: 0px;">
                         <div uk-parallax="target: #js-sticky-parallax-viewport; start: 100vh; end: 100vh; y: 10vh, 80vh; easing: 0"
                             style="transform: translateY(80vh); will-change: transform;">
@@ -262,53 +262,53 @@
 
                 </div>
             </div>
-        </div>
-    </div>
+        
+        </section>
 
-    <div class="uk-container uk-margin-top uk-width-1-3 uk-padding-large" id="contact">
-        <div class="uk-background-image uk-animation-kenburns uk-background-cover uk-border-pill"
+    <div class="uk-margin-top uk-padding-large uk-width-1-2@s uk-align-center" id="contact">
+        <div class="uk-background-image uk-background-cover uk-border-rounded"
             style="background-image: url(images/Capture-starswars.png);">
 
-            <div class="uk-overlay">
+            
                 <h2 class="compet uk-text-center">Contactez-moi</h2>
 
-                
+                <form class="uk-padding-large uk-padding-remove-vertical uk-padding-remove@s">
 
-                    <div class="uk-margin">
-                        <label for="form-name">Nom :</label>
+                    <div class="uk-padding-small uk-padding-remove-vertical uk-width-xlarge uk-align-center">
+                        <div class="uk-form-label" for="form-name"></div>
                         <div class="uk-form-controls">
-                            <input class="uk-input" id="fname" type="text" placeholder="Nom : ">
+                            <input class="uk-input uk-form-small" id="fname" type="text" placeholder="Nom : ">
                         </div>
                     </div>
 
-                    <div class="uk-margin">
-                        <label for="form-email">E-mail :</label>
+                    <div class="uk-padding-small uk-padding-remove-vertical uk-width-xlarge uk-align-center">
+                        <div class="uk-form-label" for="form-email"></div>
                         <div class="uk-form-controls">
-                            <input class="uk-input" id="femail" type="email" placeholder="e-mail : ">
+                            <input class="uk-input uk-form-small" id="femail" type="email" placeholder="e-mail : ">
                         </div>
                     </div>
 
-                    <div class="uk-margin">
-                        <label for="form-phone">Telephone :</label>
-                        <div>
-                            <input class="uk-input" id="ftel" type="text" placeholder="Phone : ">
+                    <div class="uk-padding-small uk-padding-remove-vertical uk-width-xlarge uk-align-center">
+                        <div class="uk-form-label" for="form-email"></div>
+                        <div class="uk-form-controls">
+                            <input class="uk-input uk-form-small" id="ftel" type="text" placeholder="Phone : ">
                         </div>
                     </div>
 
 
-                    <div class="uk-margin">
-                        <label for="">Message :</label>
-                        <div class="">
-                            <textarea class="uk-textarea" id="fmessage" rows="5" placeholder="Message : "></textarea>
+                    <div class="uk-padding-small uk-padding-remove-vertical uk-width-xlarge uk-align-center">
+                        <div class="uk-form-label" for="form-message"></div>
+                        <div class="uk-form-controls">
+                            <textarea class="uk-textarea uk-form-small" id="fmessage" rows="3" placeholder="Message : "></textarea>
                         </div>
                     </div>
 
-                    <div class="uk-margin">
-                        <button class="uk-button uk-button-primary uk flex uk-align-center uk-width-1-1 uk-border-pill"
+                    <div class="uk-padding-small uk-width-xlarge uk-align-center">
+                        <button class="uk-button uk-button-primary uk flex uk-align-center uk-width-1-1 uk-border-pill uk-form-small"
                             type="submit">Envoyer</button>
                     </div>
-                
-            </div>
+                </form>
+            
 
         </div>
 
