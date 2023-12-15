@@ -116,7 +116,7 @@
     <main class="uk-padding-large">
 
         <section class="uk-inline">
-            <canvas id="c">
+            <canvas class="uk-border-rounded uk-background-contain" id="c">
             </canvas>
             <div class="uk-overlay">
                 <div class="uk-position-cover" id="aprop">
@@ -272,34 +272,34 @@
             
                 <h2 class="compet uk-text-center">Contactez-moi</h2>
 
-                <form class="uk-padding-large uk-padding-remove-vertical uk-padding-remove@s">
+                <form class="uk-form-stacked">
 
-                    <div class="uk-padding-small uk-padding-remove-vertical uk-width-xlarge uk-align-center">
-                        <div class="uk-form-label" for="form-name"></div>
+                    <div class="uk-margin">
+                        <label class="uk-form-label" for="form-name">Nom :</label>
                         <div class="uk-form-controls">
-                            <input class="uk-input uk-form-small" id="fname" type="text" placeholder="Nom : ">
+                            <input class="uk-input uk-form-small" id="form-name" name="fname" type="text" placeholder="Nom : ">
                         </div>
                     </div>
 
-                    <div class="uk-padding-small uk-padding-remove-vertical uk-width-xlarge uk-align-center">
-                        <div class="uk-form-label" for="form-email"></div>
+                    <div class="uk-margin">
+                        <label class="uk-form-label" for="form-email">E-mail :</label>
                         <div class="uk-form-controls">
-                            <input class="uk-input uk-form-small" id="femail" type="email" placeholder="e-mail : ">
+                            <input class="uk-input uk-form-small" id="form-email" name="femail" type="email" placeholder="e-mail : ">
                         </div>
                     </div>
 
-                    <div class="uk-padding-small uk-padding-remove-vertical uk-width-xlarge uk-align-center">
-                        <div class="uk-form-label" for="form-email"></div>
-                        <div class="uk-form-controls">
-                            <input class="uk-input uk-form-small" id="ftel" type="text" placeholder="Phone : ">
+                    <div class="uk-margin">
+                        <label for="form-phone">Telephone :</label>
+                        <div>
+                            <input class="uk-input" id="form-phone" name="ftel" type="text" placeholder="Phone : ">
                         </div>
                     </div>
 
 
-                    <div class="uk-padding-small uk-padding-remove-vertical uk-width-xlarge uk-align-center">
-                        <div class="uk-form-label" for="form-message"></div>
-                        <div class="uk-form-controls">
-                            <textarea class="uk-textarea uk-form-small" id="fmessage" rows="3" placeholder="Message : "></textarea>
+                    <div class="uk-margin">
+                        <label for="form-message">Message :</label>
+                        <div class="">
+                            <textarea class="uk-textarea" id="form-message" name="fmessage" rows="5" placeholder="Message : "></textarea>
                         </div>
                     </div>
 
@@ -308,7 +308,7 @@
                             type="submit">Envoyer</button>
                     </div>
                 </form>
-            
+            </div>
 
         </div>
 
