@@ -1,10 +1,10 @@
 const nam =document.getElementById('form-name');
 const email =document.getElementById('form-email');
-const phone =document.getElementById('form-tel');
+const phone =document.getElementById('form-phone');
 const submit =document.querySelector('.envoy');
-const message =document.getElementById('message');
+const message =document.getElementById('form-message');
 
-submit.addEventListener('submit',(e)=>{
+submit.addEventListener('click',(e)=>{
 e.preventDefault();
 console.log("Clicked");
 
