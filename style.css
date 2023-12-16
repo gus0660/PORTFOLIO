@@ -44,3 +44,14 @@ body {
     color: white;
     
 }
+/* Ajout de styles pour redimensionner les images */
+img {
+    max-width: 100%; /* La largeur maximale est la largeur de son conteneur */
+    height: auto; /* La hauteur s'ajuste automatiquement pour conserver les proportions */
+}
+
+/* Ajout de styles pour redimensionner les vidéos */
+video {
+    max-width: 100%; /* La largeur maximale est la largeur de son conteneur */
+    height: auto; /* La hauteur s'ajuste automatiquement pour conserver les proportions */
+}
