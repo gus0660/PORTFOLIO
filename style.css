@@ -1,6 +1,9 @@
 
-.compet {
-   color: white; 
+body {
+    background-image: url(images/fond/1.jpg);
+    background-attachment: fixed;
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
 
 .flip-card {
