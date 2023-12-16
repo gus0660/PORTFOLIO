@@ -2,7 +2,7 @@
 body {
     background-image: url(images/fond/1.jpg);
     background-attachment: fixed;
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
     
 }
