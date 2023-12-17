@@ -1,6 +1,6 @@
 
 setTimeout(function() {
-    var navbar = document.querySelector('.uk-invisible');
+    var navbar = document.querySelector('.cinq');
     navbar.classList.remove('uk-invisible');
     navbar.classList.add('uk-animation-slide-top');
 }, 4000);
