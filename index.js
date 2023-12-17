@@ -1,3 +1,10 @@
+
+setTimeout(function() {
+    var navbar = document.querySelector('.uk-invisible');
+    navbar.classList.remove('uk-invisible');
+    navbar.classList.add('uk-animation-slide-top');
+}, 4000);
+
 const nam =document.getElementById('form-name');
 const email =document.getElementById('form-email');
 const phone =document.getElementById('form-phone');

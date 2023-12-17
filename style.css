@@ -23,9 +23,8 @@ body::before {
     100% {
         transform: scale(1.2);
         -webkit-transform: scale(1.2);
-}
+}}
 
-}
 .textbl {
     color: white;
     
