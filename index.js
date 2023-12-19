@@ -10,11 +10,21 @@ setTimeout(function() {
     navbar.classList.remove('uk-invisible');
     navbar.classList.add('uk-animation-slide-left');
 }, 1500);
+setTimeout(function() {
+    var navbar = document.querySelector('.six');
+    navbar.classList.remove('uk-invisible');
+    navbar.classList.add('uk-animation-slide-top');
+}, 1800);
+// setTimeout(function() {
+//     var navbar = document.querySelector('.sept');
+//     navbar.classList.remove('uk-invisible');
+//     navbar.classList.add('uk-animation-slide-right');
+// }, 2100);
 
 setTimeout(function() {
     var navbar = document.querySelector('.trois');
     navbar.classList.remove('uk-invisible');
-    navbar.classList.add('uk-animation-slide-left');
+    navbar.classList.add('uk-animation-slide-bottom');
 }, 2800);
 
 setTimeout(function() {
@@ -22,6 +32,29 @@ setTimeout(function() {
     navbar.classList.remove('uk-invisible');
     navbar.classList.add('uk-animation-slide-right');
 }, 3800);
+
+document.addEventListener('DOMContentLoaded', function () {
+    // Liste des mots à afficher dans le diaporama
+    var words = [ "Digital Tecnician", "Front-end Developer", "UX/UI Designer"];
+    var currentIndex = 0;
+
+    // Fonction pour afficher le mot suivant
+    function showNextWord() {
+        // Mettez à jour le mot affiché
+        document.getElementById('wordDisplay').textContent = words[currentIndex];
+
+        // Incrémentez l'index ou réinitialisez-le si nécessaire
+        currentIndex = (currentIndex + 1) % words.length;
+    }
+
+    // Appel de la fonction pour afficher le premier mot
+    showNextWord();
+
+    // Utilisez setInterval pour automatiser le changement de mot toutes les X secondes
+    setInterval(function () {
+        showNextWord();
+    }, 3000); // Changez ici pour définir la durée entre les transitions en millisecondes
+});
 
 setTimeout(function() {
     var navbar = document.querySelector('.cinq');

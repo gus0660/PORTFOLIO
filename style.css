@@ -25,6 +25,10 @@ body::before {
         -webkit-transform: scale(1.2);
 }}
 
+#wordDisplay {
+    width: 350px;
+}
+
 .textbl {
     color: white;
     
