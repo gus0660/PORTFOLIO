@@ -79,5 +79,5 @@ img {
 /* redimensionner les vidéos */
 video {
     max-width: 100%;
-    height: auto; /* La hauteur s'ajuste automatiquement pour conserver les proportions */
+    height: auto;
 }
