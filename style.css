@@ -72,7 +72,7 @@ body::before {
 }
 /* redimensionner les images */
 img {
-    max-width: 100%; /* La largeur maximale est la largeur de son conteneur */
+    max-width: 100%;
     height: auto; /* La hauteur s'ajuste automatiquement pour conserver les proportions */
 }
 
