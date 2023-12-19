@@ -3,31 +3,31 @@ setTimeout(function() {
     var navbar = document.querySelector('.un');
     navbar.classList.remove('uk-invisible');
     navbar.classList.add('uk-animation-slide-left');
-}, 2000);
+}, 800);
 
 setTimeout(function() {
     var navbar = document.querySelector('.deux');
     navbar.classList.remove('uk-invisible');
     navbar.classList.add('uk-animation-slide-left');
-}, 3500);
+}, 1500);
 
 setTimeout(function() {
     var navbar = document.querySelector('.trois');
     navbar.classList.remove('uk-invisible');
     navbar.classList.add('uk-animation-slide-left');
-}, 5000);
+}, 2800);
 
 setTimeout(function() {
     var navbar = document.querySelector('.quatre');
     navbar.classList.remove('uk-invisible');
     navbar.classList.add('uk-animation-slide-right');
-}, 6500);
+}, 3800);
 
 setTimeout(function() {
     var navbar = document.querySelector('.cinq');
     navbar.classList.remove('uk-invisible');
     navbar.classList.add('uk-animation-slide-top');
-}, 8000);
+}, 4300);
 
 const nam =document.getElementById('form-name');
 const email =document.getElementById('form-email');
