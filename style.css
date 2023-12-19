@@ -73,7 +73,7 @@ body::before {
 /* redimensionner les images */
 img {
     max-width: 100%;
-    height: auto; /* La hauteur s'ajuste automatiquement pour conserver les proportions */
+    height: auto;
 }
 
 /* Ajout de styles pour redimensionner les vidéos */
