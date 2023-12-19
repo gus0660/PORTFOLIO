@@ -70,7 +70,7 @@ body::before {
     color: white;
     
 }
-/* Ajout de styles pour redimensionner les images */
+/* redimensionner les images */
 img {
     max-width: 100%; /* La largeur maximale est la largeur de son conteneur */
     height: auto; /* La hauteur s'ajuste automatiquement pour conserver les proportions */
