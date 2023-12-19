@@ -7,7 +7,7 @@ body::before {
     bottom: 0;
     left: 0;
     z-index: -1;
-    background-image: url(images/fond/1.jpg);
+    background-image: url(1.webp);
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
@@ -32,6 +32,10 @@ body::before {
 
 .textblue {
     color: blue;
+}
+
+.foulh {
+    height: 100vh;
 }
 
 .flip-card {
