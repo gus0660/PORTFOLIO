@@ -1,32 +1,63 @@
 
-setTimeout(function() {
-    var navbar = document.querySelector('.un');
-    navbar.classList.remove('uk-invisible');
-    navbar.classList.add('uk-animation-slide-left');
-}, 800);
+// setTimeout(function() {
+//     var navbar = document.querySelector('.un');
+//     navbar.classList.remove('uk-invisible');
+//     navbar.classList.add('uk-animation-slide-left');
+// }, 800);
 
-setTimeout(function() {
-    var navbar = document.querySelector('.deux');
-    navbar.classList.remove('uk-invisible');
-    navbar.classList.add('uk-animation-slide-left');
-}, 1500);
-setTimeout(function() {
-    var navbar = document.querySelector('.six');
-    navbar.classList.remove('uk-invisible');
-    navbar.classList.add('uk-animation-slide-top');
-}, 1800);
+// setTimeout(function() {
+//     var navbar = document.querySelector('.deux');
+//     navbar.classList.remove('uk-invisible');
+//     navbar.classList.add('uk-animation-slide-left');
+// }, 1500);
 
-setTimeout(function() {
-    var navbar = document.querySelector('.trois');
-    navbar.classList.remove('uk-invisible');
-    navbar.classList.add('uk-animation-slide-bottom');
-}, 2800);
+// setTimeout(function() {
+//     var navbar = document.querySelector('.trois');
+//     navbar.classList.remove('uk-invisible');
+//     navbar.classList.add('uk-animation-slide-bottom');
+// }, 2800);
 
-setTimeout(function() {
-    var navbar = document.querySelector('.quatre');
-    navbar.classList.remove('uk-invisible');
-    navbar.classList.add('uk-animation-slide-right');
-}, 3800);
+// setTimeout(function() {
+//     var navbar = document.querySelector('.quatre');
+//     navbar.classList.remove('uk-invisible');
+//     navbar.classList.add('uk-animation-slide-right');
+// }, 3800);
+
+// setTimeout(function() {
+//     var navbar = document.querySelector('.cinq');
+//     navbar.classList.remove('uk-invisible');
+//     navbar.classList.add('uk-animation-slide-top');
+// }, 4300);
+
+// setTimeout(function() {
+//     var navbar = document.querySelector('.six');
+//     navbar.classList.remove('uk-invisible');
+//     navbar.classList.add('uk-animation-slide-top');
+// }, 1800);
+
+// setTimeout(function() {
+//     var navbar = document.querySelector('.sept');
+//     navbar.classList.remove('uk-invisible');
+//     navbar.classList.add('uk-animation-fade');
+// }, 4700);
+
+// setTimeout(function() {
+//     var navbar = document.querySelector('.huit');
+//     navbar.classList.remove('uk-invisible');
+//     navbar.classList.add('uk-animation-fade');
+// }, 4900);
+
+// setTimeout(function() {
+//     var navbar = document.querySelector('.neuf');
+//     navbar.classList.remove('uk-invisible');
+//     navbar.classList.add('uk-animation-fade');
+// }, 5100);
+
+// setTimeout(function() {
+//     var navbar = document.querySelector('.dix');
+//     navbar.classList.remove('uk-invisible');
+//     navbar.classList.add('uk-animation-fade');
+// }, 5300);
 
 document.addEventListener('DOMContentLoaded', function () {
     // Liste des mots à afficher dans le diaporama
@@ -51,11 +82,7 @@ document.addEventListener('DOMContentLoaded', function () {
     }, 3000); // Changez ici pour définir la durée entre les transitions en millisecondes
 });
 
-setTimeout(function() {
-    var navbar = document.querySelector('.cinq');
-    navbar.classList.remove('uk-invisible');
-    navbar.classList.add('uk-animation-slide-top');
-}, 4300);
+
 
 const nam =document.getElementById('form-name');
 const email =document.getElementById('form-email');
