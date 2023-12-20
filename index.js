@@ -16,7 +16,6 @@ setTimeout(function() {
     navbar.classList.add('uk-animation-slide-top');
 }, 1800);
 
-//     navbar.classList.remove('uk-invisible');
 //     navbar.classList.add('uk-animation-slide-right');
 // }, 2100);
 
