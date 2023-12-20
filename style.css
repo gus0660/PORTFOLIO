@@ -11,9 +11,10 @@ body::before {
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
-    animation: kenburns 20s linear 1;
+    animation: kenburns 15s linear 1;
     transform-origin: bottom right;
     transform: scale(1.2);
+    -webkit-animation: kenburns 15s linear 1;
 }
 
 @keyframes kenburns {
