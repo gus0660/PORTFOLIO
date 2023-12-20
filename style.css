@@ -35,6 +35,10 @@ body::before {
     
 }
 
+.or {
+    color: darkgoldenrod;
+}
+
 .textblue {
     color: blue;
 }
