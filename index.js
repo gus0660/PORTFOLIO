@@ -15,7 +15,7 @@ setTimeout(function() {
     navbar.classList.remove('uk-invisible');
     navbar.classList.add('uk-animation-slide-top');
 }, 1800);
-// setTimeout(function() {
+
 //     var navbar = document.querySelector('.sept');
 //     navbar.classList.remove('uk-invisible');
 //     navbar.classList.add('uk-animation-slide-right');
