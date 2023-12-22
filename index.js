@@ -92,7 +92,7 @@ function draw()
     {
         //a random chinese character to print
         var text = matrix[Math.floor(Math.random()*matrix.length)];
-        //x = i*font_size, y = value of drops[i]*font_size
+        
         ctx.fillText(text, i*font_size, drops[i]*font_size);
 
         
