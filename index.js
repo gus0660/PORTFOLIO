@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', function () {
     // Utilisez setInterval pour automatiser le changement de mot toutes les X secondes
     setInterval(function () {
         showNextWord();
-    }, 3000); // Changez ici pour définir la durée entre les transitions en millisecondes
+    }, 3000);
 });
 
 
