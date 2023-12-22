@@ -95,7 +95,7 @@ function draw()
         //x = i*font_size, y = value of drops[i]*font_size
         ctx.fillText(text, i*font_size, drops[i]*font_size);
 
-        //sending the drop back to the top randomly after it has crossed the screen
+        
         
         if(drops[i]*font_size > c.height && Math.random() > 0.975)
             drops[i] = 0;
