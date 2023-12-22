@@ -86,10 +86,7 @@ body::before {
     backface-visibility: hidden;
 }    
 
-/* .ecran {
-    
-    backface-visibility: hidden;
-} */
+
 
 /* redimensionner les images */
 img {
