@@ -29,6 +29,104 @@ body::before {
 #wordDisplay {
     width: 350px;
 }
+.un {
+    opacity: 0;
+    transform: translateX(-100%);
+    animation: appearFromLeft 0.5s ease-out 0.8s forwards;
+}
+@keyframes appearFromLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+.deux {
+    opacity: 0;
+    transform: translateX(-100%);
+    animation: appearFromLeft 0.5s ease-out 1.5s forwards;
+}
+@keyframes appearFromLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+.trois {
+    opacity: 0;
+    transform: translateY(-100%);
+    animation: appearFromBottom 0.5s ease-out 2.8s forwards;
+}
+@keyframes appearFromBottom {
+    from {
+        opacity: 0;
+        transform: translateY(100%);
+}
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.quatre {
+    opacity: 0;
+    transform: translateX(-100%);
+    animation: appearFromRight 0.5s ease-out 3.8s forwards;
+}
+@keyframes appearFromRight {
+    from {
+        opacity: 0;
+        transform: translateX(100%);
+}
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+.cinq {
+    opacity: 0;
+    transform: translateY(-100%);
+    animation: appearFromTop 0.5s ease-out 4.3s forwards;
+}
+.six {
+        opacity: 0;
+        transform: translateY(-100%);
+        animation: appearFromTop 0.5s ease-out 1.8s forwards;
+}
+    
+    @keyframes appearFromTop {
+        from {
+            opacity: 0;
+            transform: translateY(-100%);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+    .icon {
+        display: inline-block;
+        padding: 20px;
+        margin: 10px;
+        background-color: transparent;
+        color: #fff;
+        font-size: 18px;
+        opacity: 0;
+    }
+    
+    .animation {
+        transition: opacity 0.5s ease-in-out;
+    }
+    
+    .show {
+        opacity: 1;
+    }
 
 .textbl {
     color: white;
@@ -45,6 +143,8 @@ body::before {
 
 .foulh {
     height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .flip-card {
@@ -85,12 +185,19 @@ body::before {
     height: 100%;
     backface-visibility: hidden;
 }    
+
+/* .ecran {
+    
+    backface-visibility: hidden;
+} */
+
+/* redimensionner les images */
 img {
     max-width: 100%;
     height: auto;
 }
 
-
+/* redimensionner les vidéos */
 video {
     max-width: 100%;
     height: auto;

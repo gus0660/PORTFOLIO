@@ -1,11 +1,11 @@
 
-// const purgecss = require('@fullhuman/postcss-purgecss')
+const purgecss = require('@fullhuman/postcss-purgecss')
 
-// module.exports = {
-//   plugins: [
-//     purgecss({
-//         content: ['index.html'],
-//         css: ['css/uikit.css']
-//     })
-//   ]
-// }
+module.exports = {
+  plugins: [
+    purgecss({
+        content: ['index.html'],
+        css: ['css/uikit.css']
+    })
+  ]
+}
