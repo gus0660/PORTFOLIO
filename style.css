@@ -100,7 +100,6 @@ body::before {
         transform: translateY(-100%);
         animation: appearFromTop 0.5s ease-out 1.8s forwards;
 }
-    
     @keyframes appearFromTop {
         from {
             opacity: 0;
@@ -120,7 +119,6 @@ body::before {
         font-size: 18px;
         opacity: 0;
     }
-    
     .animation {
         transition: opacity 0.5s ease-in-out;
     }
@@ -147,7 +145,7 @@ body::before {
     display: flex;
     justify-content: space-evenly;
 }
-
+/* image qui se retourne page "à propos" */
 .flip-card {
     width: 1000px;
     height: 356px;
