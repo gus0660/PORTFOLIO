@@ -136,10 +136,6 @@ body::before {
     color: darkgoldenrod;
 }
 
-.textblue {
-    color: blue;
-}
-
 .foulh {
     height: 100vh;
     display: flex;
