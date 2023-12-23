@@ -34,6 +34,7 @@ body::before {
     transform: translateX(-100%);
     animation: appearFromLeft 0.5s ease-out 0.8s forwards;
 }
+/* apparition des elements sur page d'accueil */
 @keyframes appearFromLeft {
     from {
         opacity: 0;
