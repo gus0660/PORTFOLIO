@@ -16,7 +16,7 @@ body::before {
     transform: scale(1.2);
     -webkit-animation: kenburns 15s linear 1;
 }
-
+/* effet de zoom lent sur l'image background */
 @keyframes kenburns {
     0% {
         transform: scale(1);
