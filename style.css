@@ -95,6 +95,10 @@ body::before {
     transform: translateY(-100%);
     animation: appearFromTop 0.5s ease-out 4.3s forwards;
 }
+.navbout:hover {
+    transition: box-shadow .3s;
+    box-shadow: 0 0 50px rgba(0,0,0,.5); 
+}
 .six {
         opacity: 0;
         transform: translateY(-100%);
