@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function () {
     // Liste des mots à afficher dans le diaporama
-    var words = [ "Digital Tecnician", "Front-end Developer", "UX/UI Designer"];
+    var words = [ "Technicien Digital", "Developpeur front-end", "UX/UI Designer"];
     var currentIndex = 0;
 
     // Fonction pour afficher le mot suivant
