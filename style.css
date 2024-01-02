@@ -194,10 +194,9 @@ body::before {
   color: #b8860b;
   font-size: 18px;
   opacity: 0;
-}
-.animation {
   transition: opacity 0.5s ease-in-out;
 }
+
 
 .show {
   opacity: 1;
