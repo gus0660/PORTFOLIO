@@ -1,0 +1,266 @@
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  background-image: url(assets/images/1.webp);
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  animation: kenburns 15s linear 1;
+  transform-origin: bottom right;
+  transform: scale(1.2);
+  -webkit-animation: kenburns 15s linear 1;
+}
+/* effet de zoom lent sur l'image background */
+@keyframes kenburns {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+  }
+}
+/* diaporama de texte */
+#wordDisplay {
+  width: 350px;
+}
+/* apparition des elements sur page d'accueil */
+.un {
+  opacity: 0;
+  transform: translateX(-100%);
+  animation: appearFromLeft 0.5s ease-out 0.8s forwards;
+}
+
+@keyframes appearFromLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+.deux {
+  opacity: 0;
+  transform: translateX(-100%);
+  animation: appearFromLeft 0.5s ease-out 1.5s forwards;
+}
+@keyframes appearFromLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+.six {
+  opacity: 0;
+  transform: translateY(-100%);
+  animation: appearFromTop 0.5s ease-out 1.8s forwards;
+}
+@keyframes appearFromTop {
+  from {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.trois {
+  opacity: 0;
+  transform: translateY(-100%);
+  animation: appearFromBottom 0.5s ease-out 2.8s forwards;
+}
+@keyframes appearFromBottom {
+  from {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.quatre {
+  opacity: 0;
+  transform: translateX(-100%);
+  animation: appearFromRight 0.5s ease-out 3.8s forwards;
+}
+@keyframes appearFromRight {
+  from {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+.cinq1 {
+  opacity: 0;
+  transform: translateY(100%);
+  animation: appearFromTop 0.5s ease-out 4.3s forwards;
+}
+@keyframes appearFromTop {
+  from {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.cinq2 {
+  opacity: 0;
+  transform: translateY(100%);
+  animation: appearFromTop 0.5s ease-out 4.5s forwards;
+}
+@keyframes appearFromTop {
+  from {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.cinq3 {
+  opacity: 0;
+  transform: translateY(100%);
+  animation: appearFromTop 0.5s ease-out 4.7s forwards;
+}
+@keyframes appearFromTop {
+  from {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.cinq4 {
+  opacity: 0;
+  transform: translateY(100%);
+  animation: appearFromTop 0.5s ease-out 4.9s forwards;
+}
+@keyframes appearFromTop {
+  from {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.cinq5 {
+  opacity: 0;
+  transform: translateY(100%);
+  animation: appearFromTop 0.5s ease-out 5.1s forwards;
+}
+@keyframes appearFromTop {
+  from {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.navbout:hover {
+  transition: box-shadow 0.3s;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+}
+
+.icon {
+  display: inline-block;
+  padding: auto;
+  margin: auto;
+  background-color: transparent;
+  color: #b8860b;
+  font-size: 18px;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+  z-index: 999;
+}
+.show {
+  opacity: 1;
+}
+
+.textbl {
+  color: white;
+}
+
+.or {
+  color: #b8860b
+}
+
+.foulh {
+  height: 100vh;
+  display: flex;
+  justify-content: space-evenly;
+}
+/* image qui se retourne page "à propos" */
+.flip-card {
+  width: 1000px;
+  height: 356px;
+  background-color: transparent;
+  perspective: 1000px;
+}
+.er-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+.flip-card:hover .er-inner {
+  transform: rotateY(180deg);
+}
+
+.er-front {
+  width: 100%;
+  height: 100%;
+}
+
+.er-back {
+  background-color: dodgerblue;
+  color: white;
+  width: 100%;
+  height: 100%;
+  transform: rotateY(180deg);
+}
+
+.er-front,
+.er-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+/* redimensionner les images */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* redimensionner les vidéos */
+video {
+  max-width: 100%;
+  height: auto;
+}
