@@ -1,0 +1,134 @@
+/* diaporama de texte */
+#wordDisplay {
+    width: 350px; }
+  
+  /* apparition des elements sur page d'accueil */
+  .un {
+    opacity: 0;
+    transform: translateX(-100%);
+    animation: appearFromLeft 0.5s ease-out 0.8s forwards; }
+  
+  @keyframes appearFromLeft {
+    from {
+      opacity: 0;
+      transform: translateX(-100%); }
+    to {
+      opacity: 1;
+      transform: translateX(0); } }
+  
+  .deux {
+    opacity: 0;
+    transform: translateX(-100%);
+    animation: appearFromLeft 0.5s ease-out 1.5s forwards; }
+  
+  @keyframes appearFromLeft {
+    from {
+      opacity: 0;
+      transform: translateX(-100%); }
+    to {
+      opacity: 1;
+      transform: translateX(0); } }
+  
+  .six {
+    opacity: 0;
+    transform: translateY(-100%);
+    animation: appearFromTop 0.5s ease-out 1.8s forwards; }
+  
+  @keyframes appearFromTop {
+    from {
+      opacity: 0;
+      transform: translateY(-100%); }
+    to {
+      opacity: 1;
+      transform: translateY(0); } }
+  
+  .trois {
+    opacity: 0;
+    transform: translateY(-100%);
+    animation: appearFromBottom 0.5s ease-out 2.8s forwards; }
+  
+  @keyframes appearFromBottom {
+    from {
+      opacity: 0;
+      transform: translateY(100%); }
+    to {
+      opacity: 1;
+      transform: translateY(0); } }
+  
+  .quatre {
+    opacity: 0;
+    transform: translateX(-100%);
+    animation: appearFromRight 0.5s ease-out 3.8s forwards; }
+  
+  @keyframes appearFromRight {
+    from {
+      opacity: 0;
+      transform: translateX(100%); }
+    to {
+      opacity: 1;
+      transform: translateX(0); } }
+  
+  .cinq1 {
+    opacity: 0;
+    transform: translateY(100%);
+    animation: appearFromTop 0.5s ease-out 4.3s forwards; }
+  
+  @keyframes appearFromTop {
+    from {
+      opacity: 0;
+      transform: translateY(-100%); }
+    to {
+      opacity: 1;
+      transform: translateY(0); } }
+  
+  .cinq2 {
+    opacity: 0;
+    transform: translateY(100%);
+    animation: appearFromTop 0.5s ease-out 4.5s forwards; }
+  
+  @keyframes appearFromTop {
+    from {
+      opacity: 0;
+      transform: translateY(-100%); }
+    to {
+      opacity: 1;
+      transform: translateY(0); } }
+  
+  .cinq3 {
+    opacity: 0;
+    transform: translateY(100%);
+    animation: appearFromTop 0.5s ease-out 4.7s forwards; }
+  
+  @keyframes appearFromTop {
+    from {
+      opacity: 0;
+      transform: translateY(-100%); }
+    to {
+      opacity: 1;
+      transform: translateY(0); } }
+  
+  .cinq4 {
+    opacity: 0;
+    transform: translateY(100%);
+    animation: appearFromTop 0.5s ease-out 4.9s forwards; }
+  
+  @keyframes appearFromTop {
+    from {
+      opacity: 0;
+      transform: translateY(-100%); }
+    to {
+      opacity: 1;
+      transform: translateY(0); } }
+  
+  .cinq5 {
+    opacity: 0;
+    transform: translateY(100%);
+    animation: appearFromTop 0.5s ease-out 5.1s forwards; }
+  
+  @keyframes appearFromTop {
+    from {
+      opacity: 0;
+      transform: translateY(-100%); }
+    to {
+      opacity: 1;
+      transform: translateY(0); } }

@@ -1,0 +1,29 @@
+
+.navbout:hover {
+    transition: box-shadow 0.3s;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.5); }
+  
+  .icon {
+    display: inline-block;
+    padding: auto;
+    margin: auto;
+    background-color: transparent;
+    color: #b8860b;
+    font-size: 18px;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+    z-index: 999; }
+  
+  .show {
+    opacity: 1; }
+  
+  .textbl {
+    color: white; }
+  
+  .or {
+    color: #b8860b; }
+  
+  .foulh {
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly; }

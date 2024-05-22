@@ -1,28 +1,32 @@
 @charset "UTF-8";
-body::before {
-  content: "";
-  position: fixed;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  z-index: -1;
-  background-image: url(assets/images/1.webp);
-  background-attachment: fixed;
-  background-size: cover;
-  background-repeat: no-repeat;
-  animation: kenburns 15s linear 1;
-  transform-origin: bottom right;
-  transform: scale(1.2);
-  -webkit-animation: kenburns 15s linear 1; }
+.navbout:hover {
+  transition: box-shadow 0.3s;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.5); }
 
-/* effet de zoom lent sur l'image background */
-@keyframes kenburns {
-  0% {
-    transform: scale(1); }
-  100% {
-    transform: scale(1.2);
-    -webkit-transform: scale(1.2); } }
+.icon {
+  display: inline-block;
+  padding: auto;
+  margin: auto;
+  background-color: transparent;
+  color: #b8860b;
+  font-size: 18px;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+  z-index: 999; }
+
+.show {
+  opacity: 1; }
+
+.textbl {
+  color: white; }
+
+.or {
+  color: #b8860b; }
+
+.foulh {
+  height: 100vh;
+  display: flex;
+  justify-content: space-evenly; }
 
 /* diaporama de texte */
 #wordDisplay {
@@ -159,35 +163,6 @@ body::before {
     opacity: 1;
     transform: translateY(0); } }
 
-.navbout:hover {
-  transition: box-shadow 0.3s;
-  box-shadow: 0 0 50px rgba(0, 0, 0, 0.5); }
-
-.icon {
-  display: inline-block;
-  padding: auto;
-  margin: auto;
-  background-color: transparent;
-  color: #b8860b;
-  font-size: 18px;
-  opacity: 0;
-  transition: opacity 0.5s ease-in-out;
-  z-index: 999; }
-
-.show {
-  opacity: 1; }
-
-.textbl {
-  color: white; }
-
-.or {
-  color: #b8860b; }
-
-.foulh {
-  height: 100vh;
-  display: flex;
-  justify-content: space-evenly; }
-
 /* image qui se retourne page "à propos" */
 .flip-card {
   width: 1000px;
@@ -233,3 +208,28 @@ img {
 video {
   max-width: 100%;
   height: auto; }
+
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  background-image: url(assets/images/1.webp);
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  animation: kenburns 15s linear 1;
+  transform-origin: bottom right;
+  transform: scale(1.2);
+  -webkit-animation: kenburns 15s linear 1; }
+
+/* effet de zoom lent sur l'image background */
+@keyframes kenburns {
+  0% {
+    transform: scale(1); }
+  100% {
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2); } }
