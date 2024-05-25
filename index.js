@@ -69,7 +69,7 @@ Email.send({
   message => alert(message)
 );
 });
-// geting canvas by Boujjou Achraf
+// fond annimé façon MATRIX
 var c = document.getElementById("c");
 var ctx = c.getContext("2d");
 
