@@ -13,6 +13,7 @@
     "brace-expansion": "^2.0.1",
     "commander": "^9.5.0",
     "cssesc": "^3.0.0",
+    "dotenv": "^16.4.5",
     "express": "^4.19.2",
     "fs.realpath": "^1.0.0",
     "glob": "^8.1.0",
